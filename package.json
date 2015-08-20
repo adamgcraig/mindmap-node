@@ -1,0 +1,32 @@
+{
+  "name": "mindmap-node",
+  "version": "1.0.0",
+  "description": "a web application for collaboratively editing labeled, directed multigraphs",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adamgcraig/mindmap-node.git"
+  },
+  "keywords": [
+    "mind",
+    "map",
+    "mindmap",
+    "collaborative",
+    "visualization",
+    "conceptmap",
+    "multigraph"
+  ],
+  "author": "Adam G. Craig",
+  "license": "LGPL-2.0",
+  "bugs": {
+    "url": "https://github.com/adamgcraig/mindmap-node/issues"
+  },
+  "homepage": "https://github.com/adamgcraig/mindmap-node#readme",
+  "dependencies": {
+    "primus": "^3.2.1",
+    "ws": "^0.7.2"
+  }
+}
